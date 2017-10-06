@@ -7,12 +7,7 @@ echo "What College are you in?"
 read userCollege
 
 echo "Your name is: $username, you are in $userCity and you are enrolled in ITT."
-echo"Is this information correct?"
-read userResponse
 
-if [userResponse != "yes"];then
-	exit
-fi
 
 # cat /proc/cpuinfo |grep processor | wc -l
 cat /proc/cpuinfo |grep processor | wc -l
